@@ -4,6 +4,7 @@ Write-Output "Compiling using Google Closure Compiler..."
 
 npx google-closure-compiler `
     --compilation_level=SIMPLE `
+    --language_out=STABLE `
     --js=node_modules/google-closure-library/closure/goog/array/array.js `
     --js=node_modules/google-closure-library/closure/goog/asserts/asserts.js `
     --js=node_modules/google-closure-library/closure/goog/base.js `
@@ -28,6 +29,9 @@ npx google-closure-compiler `
     --js=node_modules/google-closure-library/closure/goog/i18n/bidi.js `
     --js=node_modules/google-closure-library/closure/goog/labs/useragent/browser.js `
     --js=node_modules/google-closure-library/closure/goog/labs/useragent/util.js `
+    --js=node_modules/google-closure-library/closure/goog/labs/useragent/useragent.js `
+    --js=node_modules/google-closure-library/closure/goog/labs/useragent/highentropy/highentropyvalue.js `
+    --js=node_modules/google-closure-library/closure/goog/labs/useragent/highentropy/highentropydata.js `
     --js=node_modules/google-closure-library/closure/goog/object/object.js `
     --js=node_modules/google-closure-library/closure/goog/proto2/descriptor.js `
     --js=node_modules/google-closure-library/closure/goog/proto2/fielddescriptor.js `
