@@ -6,14 +6,17 @@ rm -rf dist/* \
 --compilation_level=SIMPLE \
 --js=node_modules/google-closure-library/closure/goog/array/array.js \
 --js=node_modules/google-closure-library/closure/goog/asserts/asserts.js \
+--js=node_modules/google-closure-library/closure/goog/asserts/dom.js \
 --js=node_modules/google-closure-library/closure/goog/base.js \
 --js=node_modules/google-closure-library/closure/goog/debug/error.js \
 --js=node_modules/google-closure-library/closure/goog/dom/asserts.js \
+--js=node_modules/google-closure-library/closure/goog/dom/element.js \
 --js=node_modules/google-closure-library/closure/goog/dom/htmlelement.js \
 --js=node_modules/google-closure-library/closure/goog/dom/nodetype.js \
 --js=node_modules/google-closure-library/closure/goog/dom/safe.js \
 --js=node_modules/google-closure-library/closure/goog/dom/tagname.js \
 --js=node_modules/google-closure-library/closure/goog/dom/tags.js \
+--js=node_modules/google-closure-library/closure/goog/flags/flags.js \
 --js=node_modules/google-closure-library/closure/goog/fs/blob.js \
 --js=node_modules/google-closure-library/closure/goog/fs/url.js \
 --js=node_modules/google-closure-library/closure/goog/functions/functions.js \
